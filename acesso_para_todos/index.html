@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <script src="js/acessibilidade.js" defer></script>
+</head>
+
+<body>
+  <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo principal</a>
+
+  <header class="cabecalho">
+
+    <div class="cabecalho-interno">
+      <a class="marca" href="index.html"><span class="marca-icone" aria-hidden="true">A+</span><span>Acesso para Todos</span></a>
+      <nav aria-label="Navegação principal">
+
+        <ul>
+
+          <li><a href="index.html" aria-current="page">Início</a></li>
+          <li><a href="casa.html">Em casa</a></li>
+          <li><a href="educacao.html">Educação</a></li>
+          <li><a href="mobilidade.html">Mobilidade</a></li>
+          <li><a href="tecnologia.html">Tecnologia</a></li>
+        </ul>
+
+
+      </nav>
+    </div>
+  </header>
+
+  <div class="ferramentas" role="group" aria-label="Ferramentas de acessibilidade">
+    <button class="botao-ferramenta" id="diminuir-texto" type="button" aria-label="Diminuir tamanho do texto">A−</button>
+    <button class="botao-ferramenta" id="aumentar-texto" type="button" aria-label="Aumentar tamanho do texto">A+</button>
+    <button class="botao-ferramenta" id="alternar-contraste" type="button" aria-pressed="false">Alto contraste</button>
+  </div>
+
+  <main id="conteudo">
+    <section class="apresentacao">
+
+      <div class="conteiner apresentacao-grade">
+
+        <div>
+          <span class="sobretitulo">Inclusão começa no cotidiano</span>
+          <h1>Acessibilidade é para todo mundo.</h1>
+          <p class="chamada">Um ambiente acessível permite que mais pessoas participem, circulem, aprendam e utilizem serviços com autonomia e segurança.</p>
+          <a class="botao-link" href="casa.html">Conheça as áreas de acessibilidade</a>
+        </div>
+
+        <div class="apresentacao-arte" aria-label="Ilustração simbólica de inclusão" role="img">
+          <div><div class="simbolo" aria-hidden="true">♿</div><p>Respeito, autonomia e participação.</p></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="secao">
+      <div class="conteiner">
+        <span class="sobretitulo">Sobre o projeto</span>
+        <h2>O que significa acessibilidade?</h2>
+        <p class="secao-intro">Acessibilidade é a possibilidade de utilizar espaços, produtos, serviços e informações com segurança e autonomia. Ela beneficia pessoas com deficiência ou mobilidade reduzida e também facilita a vida de todos em diferentes momentos.</p>
+        <div class="cartoes">
+
+          <article class="cartao"><div class="cartao-icone" aria-hidden="true">🏠</div><h3>Em casa</h3><p>Adaptações simples podem tornar os ambientes domésticos mais seguros e funcionais.</p><a href="casa.html">Ler sobre acessibilidade em casa</a></article>
+          <article class="cartao"><div class="cartao-icone" aria-hidden="true">📚</div><h3>Na educação</h3><p>Materiais e espaços inclusivos ampliam as oportunidades de aprendizagem.</p><a href="educacao.html">Ler sobre educação inclusiva</a></article>
+          <article class="cartao"><div class="cartao-icone" aria-hidden="true">🚌</div><h3>Na cidade</h3><p>Calçadas, travessias e transportes acessíveis favorecem a mobilidade.</p><a href="mobilidade.html">Ler sobre mobilidade urbana</a></article>
+          <article class="cartao"><div class="cartao-icone" aria-hidden="true">💻</div><h3>Na tecnologia</h3><p>Recursos digitais bem planejados ajudam diferentes pessoas a acessar informações.</p><a href="tecnologia.html">Ler sobre tecnologia acessível</a></article>
+        
+        </div>
+        
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="rodape">
+
+    <div class="conteiner rodape-interno">
+
+      <div><strong>Acesso para Todos</strong><p>Informação, respeito e inclusão no cotidiano.</p></div>
+
+      <div><p><a href="index.html">Voltar ao início</a></p></div>
+
+    </div>
+  </footer>
+  
+</body>
+</html>
